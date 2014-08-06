@@ -2,9 +2,7 @@
 
 ### Issue : 상수값을 선언한 NSString 을 인자값으로 넘기려고 할 때 아래와 같은 warning이 발생했다.
 
-```objective-c
-Sending 'const NSString *__strong' to parameter of type 'NSString *' discards qualifiers
-```
+![Sending 'const NSString *__strong' to parameter of type 'NSString *' discards qualifiers](https://raw.githubusercontent.com/kyungkoo/study-note/master/objc/images/const-pointer-warning.png)
 
 ### 선언한 상수 형태
 ```objective-c
@@ -28,4 +26,5 @@ NSString *const ConstantValue = @"ConstantValue";
 ConstantValue = @"AnotherValue";
 ```
 위 경우 아래처럼 변경 불가능 하다는 error 가 발생한다.
-<font color='red'>Read-only variable is not assignable</font>
+
+![Read-only variable is not assignable](https://raw.githubusercontent.com/kyungkoo/study-note/master/objc/images/const-pointer-error.png)
