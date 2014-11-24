@@ -24,6 +24,16 @@ Crashlytics, Beta 서비스를 이용하면 앱 배포 및 크래쉬 리포팅�
 iOS, OSX Library Dependency Manager.
 java 의 Maven,Gradle 과 유사한 역할을 함.
 
+### 1) [AFNetworking](http://afnetworking.com)
+HTTP/HTTPS/Multipart/Networking 기반의 ImageLoading 을 지원하는 라이브러리.<br />
+RESTful 을 지원하며 Networking 모듈을 별도로 구현하는 수고를 덜 수 있음. <br />
+Block, ARC 기술을 지원.<br />
+[Square](http://square.github.io) 사의  [Okhttp](http://square.github.io/okhttp/),[Retrofit](http://square.github.io/retrofit/),[Picasso](http://square.github.io/picasso/) 라이브러리의 의 기능을 제공.
+
+### 2) [FMDB](https://github.com/ccgus/fmdb)
+Objective-C 에서 제공하는 CoreData SQLite 의 Wrapper Library.<br />
+기본적으로 제공하는 SQLite 보다 사용하기 편하고, Block, ARC 지원.
+
 ## 5. Utilities
 ### 1) [iExplore](http://www.macroplant.com/iexplorer/)
 단말 탐색기 기능.
