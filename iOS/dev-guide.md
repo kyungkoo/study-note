@@ -28,7 +28,7 @@ java 의 Maven,Gradle 과 유사한 역할을 함.
 HTTP/HTTPS/Multipart/Networking 기반의 ImageLoading 을 지원하는 라이브러리.<br />
 RESTful 을 지원하며 Networking 모듈을 별도로 구현하는 수고를 덜 수 있음. <br />
 Block, ARC 기술을 지원.<br />
-[Square](http://square.github.io) 사의  [Okhttp](http://square.github.io/okhttp/),[Retrofit](http://square.github.io/retrofit/),[Picasso](http://square.github.io/picasso/) 라이브러리의 의 기능을 제공.
+Android 의 [Volley](http://developer.android.com/training/volley/index.html) 나 [Square](http://square.github.io) 사의  [Okhttp](http://square.github.io/okhttp/),[Retrofit](http://square.github.io/retrofit/),[Picasso](http://square.github.io/picasso/) 와 유사한 기능을 제공.
 
 ### 2) [FMDB](https://github.com/ccgus/fmdb)
 Objective-C 에서 제공하는 CoreData SQLite 의 Wrapper Library.<br />
