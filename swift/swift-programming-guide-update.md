@@ -47,7 +47,7 @@ func hasAnyMatches(list: Int[], condition: Int -> Bool) -> Bool {
 }
 ```
 ####After
-```
+```swift
 func hasAnyMatches(list: [Int], condition: Int -> Bool) -> Bool {
   // same code
 }
