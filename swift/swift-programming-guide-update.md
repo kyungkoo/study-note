@@ -9,14 +9,30 @@
 ###1. Simple Value
 
 #### Before
-
 ```swift
 let emptyArray = String[]()
 let emptyDictionary = Dictionary<String, Float>()
 ```
 #### After
-
 ```swift
 let emptyArray = [String]()
 let emptyDictionary = [String, Float]()
+```
+<br />
+
+###2. Control Flow
+
+#### Before
+```swift
+var firstForLoop = 0
+for i in 0..3 {
+  firstForLoop += i
+}
+```
+#### After
+```swift
+var firstForLoop = 0
+for i in 0..<3 {
+  firstForLoop += i
+}
 ```
