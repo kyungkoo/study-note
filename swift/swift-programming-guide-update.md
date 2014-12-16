@@ -8,12 +8,12 @@
 
 ###1. Simple Value
 
-#### Before
+####Before
 ```swift
 let emptyArray = String[]()
 let emptyDictionary = Dictionary<String, Float>()
 ```
-#### After
+####After
 ```swift
 let emptyArray = [String]()
 let emptyDictionary = [String, Float]()
@@ -22,17 +22,33 @@ let emptyDictionary = [String, Float]()
 
 ###2. Control Flow
 
-#### Before
+####Before
 ```swift
 var firstForLoop = 0
 for i in 0..3 {
   firstForLoop += i
 }
 ```
-#### After
+####After
 ```swift
 var firstForLoop = 0
 for i in 0..<3 {
   firstForLoop += i
+}
+```
+<br />
+
+###3. Functions and Closures
+
+####Before
+```swift
+func hasAnyMatches(list: Int[], condition: Int -> Bool) -> Bool {
+  // same code
+}
+```
+####After
+```
+func hasAnyMatches(list: [Int], condition: Int -> Bool) -> Bool {
+  // same code
 }
 ```
