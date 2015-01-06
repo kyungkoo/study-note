@@ -38,3 +38,7 @@ OTA 배포가 사용하기 좀 더 용이 하다 생각 됩니다.
 그리고 링크를 선택하면 아래와 같이 ipa 파일을 단말에 설칠 할 수 있습니다.
 
 ![OTA Install](https://raw.githubusercontent.com/kyungkoo/study-note/master/iOS/images/ota-install.jpg)
+
+##P.S.
+
+[Fabric](https://fabric.io) 이나 [Parse](https://parse.com), [TestFlight](https://www.testflightapp.com) 를 통해서 배포하는편이 더 편하긴 하지만, 부득이하게 이런 방법으로 배포할 수 있기 때문에...
