@@ -18,14 +18,14 @@ print("This is Swift2...")
 ### for Loop
 Java의 for loop는 다음과 같다.
 ```Java
-for (int i = 0; i < 10; i++) {
+for (int index = 0; index < 10; index++) {
   // do something
 }
 ```
 
 Swift 에서는 다음과 같은 방식으로 동일한 결과를 얻는다.
 ```Swift
-for 0..<10 {
-  // do something
+for index in 1...10 {
+    // do something
 }
 ```
